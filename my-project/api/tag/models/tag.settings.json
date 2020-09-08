@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "name": "tag"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "tagname": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "tagname"
+    },
+    "articles": {
+      "via": "tag",
+      "collection": "article"
+    }
+  }
+}

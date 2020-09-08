@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.card{
+  height: 70vh;
+  border-top-style:20px;
+  border:1px solid rgb(237, 242, 247);
+  
+}
+.card:hover{
+  opacity: 0.8;
+  
+}
+.title{
+  font-size: 18px;
+  color: rgb(21, 21, 22);
+  text-align: center;
+  text-transform:capitalize;
+  background-color: rgb(226,232,240);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 12vh;
+  font-family:russo;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.title:hover{
+  font-weight: 500;
+  border-style: none;
+  text-emphasis: none;
+}
+.title a:hover{
+  text-decoration:none;
+}
+.heads{
+  margin-bottom: 40px;
+}

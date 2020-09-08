@@ -1,0 +1,14 @@
+.index-wrapper {
+    background:rgba(248,248,248);
+}
+.sec{
+   
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.vr{
+    border-left: 6px solid rgb(226,232,240);
+}
+.vr h1{
+    padding-left: 20px;
+}

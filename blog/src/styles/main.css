@@ -1,0 +1,22 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./nav.css";
+@import "./posts.css";
+@import "./index.css";
+@import "./footer.css";
+@import "./sidebar.css";
+@import "./jumbotron.css";
+@import "./article.css";
+@import "./author.css";
+*{
+    
+    box-sizing: border-box;
+}
+
+.card-img1{
+    max-width: 345px;
+    margin-bottom: 50px;
+}
+
+.card-img1:hover{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

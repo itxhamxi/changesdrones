@@ -1,0 +1,46 @@
+.box{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+
+}
+.img-box{
+    margin-left: 60px;
+}
+.imgs{
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+.img-box img{
+    border-radius: 50%;
+    width:50%;
+    margin:auto;
+    margin-top: 26px;
+    margin-left: 24px;
+}
+.box h1{
+    color: black;
+    font-size:35px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.icons{
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+.icons .fb,.icons .google {
+    padding:12px;
+    padding-bottom: 20px;
+    background-color: rgb(237, 242, 247);
+    border-radius:60%;
+    margin-bottom: 20px;
+}
+.icons .google{
+    margin-left: 8px;
+
+}
+.icons .fb:hover,.icons .google:hover {
+    background-color: rgb(90, 103, 216);
+}
